@@ -1,0 +1,113 @@
+.form-container {
+    margin: 20px auto;
+    align-items: center;
+    width: 60%;
+}
+body{
+    margin: 0 auto; 
+    width: 763px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.autocomplete input[type="text"],
+    input[type="number"],
+    input[type="text"][name="note"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.autocomplete input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Màu nền */
+    color: #333; /* Màu chữ */
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Màu nền danh sách hoàn thành */
+    color: #333; /* Màu chữ danh sách hoàn thành */
+}
+
+.autocomplete-items div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e0f7bd; /* Màu nền khi di chuột vào mục */
+}
+
+.autocomplete-active {
+    background-color: #e5e5e5; /* Màu nền khi mục được chọn */
+}
+
+.dose-container {
+    display: flex;
+    align-items: center;
+}
+
+.dose-container input[type="text"] {         
+    margin-right: 5px;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dose-container span {
+    font-size: 18px;
+}
+.add-btn{
+    background-color: #fff;
+    color: #a5cf61;
+    padding: 10px 20px;
+    border: 2px #a5cf61 solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;    
+    margin-left: 360px;
+}
+.add-btn:hover{
+    background-color: #a5cf61;
+    color: #fff;
+}
+       
+/* CSS cho viền khi focus */
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-color: #a5cf61; /* Màu viền khi focus */
+    box-shadow: 0 0 5px rgba(0, 255, 34, 0.3); /* Màu lan lan nhạt */
+}
+.alert {
+    padding: 10px;
+    width: 50%;
+    margin-left: 150px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.alert.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}

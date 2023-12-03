@@ -1,0 +1,17 @@
+body{
+    margin: 0 auto; 
+    width: 763px;
+}
+.add-btn{
+    margin-top: 10px;
+    background-color: #fff;
+    color: #a5cf61;
+    padding: 10px 20px;
+    border: 2px #a5cf61 solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: #a5cf61;
+    color: #fff;
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto; 
+    width: 763px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.danhsach table {
+    width:763px;
+    border-collapse: collapse;
+}
+  
+.danhsach th,
+.danhsach td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.danhsach th {
+    background-color: #a5cf61;
+}
+
+.danhsach a {
+    text-decoration: none;
+    color: #a5cf61;
+}
+
+.danhsach a:hover {
+    text-decoration: none;
+    color: #223307;
+}
+.add-btn{
+    margin-top: 10px;
+    background-color: #fff;
+    color: #a5cf61;
+    padding: 10px 20px;
+    border: 2px #a5cf61 solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: #a5cf61;
+    color: #fff;
+}

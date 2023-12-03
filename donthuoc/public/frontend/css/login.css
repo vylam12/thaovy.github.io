@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+}
+
+.layout {
+    border: #EEF1F1 1px solid;
+    border-radius: 30px;
+    background: #EEF1F1;
+    width: 524px;
+    height: 242px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.tieudeform {
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
+    margin-bottom: 10px;
+    font-size: 27px;
+    font-weight: 500;
+    color: #6B8E4E;
+}
+
+.tenDN,
+.matkhau {
+    margin: 5px 0;
+    position: relative;
+}
+
+.tenDN input[type="text"],
+.matkhau input[type="password"] {
+    padding: 13px;
+    border-radius: 10px;
+    border: 2px solid #6B8E4E;
+    background: #EEF1F1;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;    
+    padding-left: 50px;
+    margin-left: 10px;
+    color: #000;
+    font-weight: 300;
+    font-size: 17px;   
+}
+
+.tenDN .input-icon,
+.matkhau .input-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;  
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #597541;
+}
+
+.dangnhap {
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 15px;
+    color: #EEF1F1;
+    font-size: 16px;
+    border: 2px solid #6B8E4E;
+    background: #6B8E4E;
+    width: 230px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
+    margin-left: 10px;
+}
+.dangnhap:hover{
+    background: #597541;
+}
