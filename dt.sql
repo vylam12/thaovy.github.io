@@ -88,7 +88,7 @@ CREATE TABLE detail_prescription (
     frequency int not null,
     quantity_Ofmedicine float not null,
     note varchar(225) not null,
-    user_manual varchar(225) not null,
+    user_manual varchar(225) null,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP null,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP null,
     FOREIGN KEY (id_prescription) REFERENCES prescription(id_prescription),
